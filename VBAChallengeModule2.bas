@@ -1,8 +1,4 @@
 Attribute VB_Name = "Module1"
-'cell/range.Interior.ColorIndex = 3
-'colorindex 3 = Red
-'colorindex 4 = green
-
 Sub ticker()
 
 Dim ws As Worksheet
@@ -126,6 +122,7 @@ For Each ws In Worksheets
         
         End If
    Next i
+   
 
 Next ws
 
